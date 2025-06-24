@@ -48,6 +48,7 @@ body {
   transition: color 0.3s ease;
   padding: 6px 12px;
   border-radius: 6px;
+  background-color: transparent;
 }
 
 .navbar ul li a:hover,
