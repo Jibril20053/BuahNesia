@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: url('https://images6.alphacoders.com/596/596344.jpg') center center/cover no-repeat;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(46, 125, 50, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 15px 30px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.Navbar-logo h1 {
+  color: #2ecc71;
+  font-size: 24px;
+}
+
+.Navbar-logo .tec {
+  color: #ecf0f1;
+}
+
+.Navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.Navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.Navbar ul li a:hover 
+.Navbar ul li a.active {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.Navbar ul li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background-color: #2ecc71;
+  transition: width 0.3s;
+}
+
+.Navbar ul li a:hover::after {
+  width: 100%;
+}
+
+.Navbar-search input {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.Navbar-search button {
+  padding: 6px 12px;
+  margin-left: 8px;
+  border: none;
+  background-color: #2ecc71;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Navbar-search button:hover {
+  background-color: #2980b9;
+}
+
+.header-logo {
+  text-align: center;
+  padding: 30px 0 10px;
+}
+
+.header-logo h1 {
+  display: inline-block;
+  padding: 10px 30px;
+  border: 3px solid #28a745;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  max-width: 500px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 200px;
+}
+
+.header-logo .tec {
+  color: white;
+}
+
+.produk-all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.produk-card {
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  padding: 20px;
+  width: 240px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.produk-card:hover {
+  transform: scale(1.05);
+}
+
+.produk-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  object-fit: cover;
+  height: 160px;
+}
+
+.produk-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.produk-card p {
+  font-size: 14px;
+  color: #2c3e50;
+}
+
+.harga {
+  font-weight: bold;
+  color: #e74c3c;
+  margin: 15px 0;
+}
+
+.produk-card button {
+  background-color: #27ae60;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.produk-card button:hover {
+  background-color: #2980b9;;
+}
+
+.footer {
+  text-align: center;
+  background-color: rgba(46, 125, 50, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 15px 30px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  color: white;
+  padding: 15px;
+  margin-top: 50px;
+}
+
