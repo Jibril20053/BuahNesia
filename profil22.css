@@ -52,7 +52,7 @@ body {
 
 .navbar ul li a:hover,
 .navbar ul li a.active {
-  background-color: #2ecc71;
+  background-color: transparant;
   color: #fff;
 }
 
