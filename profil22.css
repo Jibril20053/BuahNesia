@@ -124,8 +124,8 @@ body {
 }
 
 .profile-image img {
-  width: 250px;
-  height: 250px;
+  width: 290px;
+  height: 330px;
   margin-top: 50px;
   border-radius: 50%;
   object-fit: cover;
@@ -157,7 +157,8 @@ body {
 }
 
 .profile-text {
-  flex: 2;
+  padding-top: 50px;
+  text-align: justify;
 }
 
 .profile-text h2 {
