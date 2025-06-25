@@ -162,6 +162,15 @@ button[type="submit-2"]:hover {
     background-color: #2980b9;
 }
 
+.kieim-pesan button {
+  width: 520px;
+}
+
+.kirim-pesan a {
+  text-decoration: none;
+  color: white;
+}
+
 /* Ikon Sosial Media */
 .social-section p:first-of-type {
     text-align: center;
